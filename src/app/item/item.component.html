@@ -1,0 +1,10 @@
+<div class="card">
+    <img src="{{image}}" alt="Card Image">
+    <div class="card-content">
+        <h2>{{title}}</h2>
+        <span *ngIf="showDescription">
+            <p>{{description}}</p>
+        </span>
+        <button (click)="showDescription = !showDescription">More</button>
+    </div>
+</div>

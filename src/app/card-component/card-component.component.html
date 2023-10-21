@@ -1,0 +1,5 @@
+<div class="card-container">
+    <div *ngFor="let card of cardData" class="card-item">
+        <app-item [title]="card.title" [description]="card.description" [image]="card.image"></app-item>
+    </div>
+</div>

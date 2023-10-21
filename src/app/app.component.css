@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-image img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+.hero-content {
+    flex: 1; 
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px; 
+    color: #333; 
+    margin: 20px;
+    text-align: left;
+}
+
+.hero-content p {
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+}
+
+/* Cars components */
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 5%;
+}
